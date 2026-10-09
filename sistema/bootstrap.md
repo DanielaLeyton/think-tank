@@ -24,8 +24,8 @@ Pregunta de a un tema por vez. No escribas nada hasta el paso "Confirmar".
 
 4. **Unidades iniciales** (opcional): lo que el preset elegido indique en su sección "Preguntas del
    bootstrap". Se puede saltar y crear después con el flujo `nuevo`.
-5. **Versionado**: si la carpeta no es un repositorio git y git está instalado, pregunta si quiere
-   inicializarlo. Explica que sirve para tener historial y poder deshacer.
+5. **Versionado**: si la carpeta no contiene `.git`, pregunta si quiere usar git. Explica que sirve
+   para tener historial y poder deshacer. Si ya lo contiene, no preguntes.
 
 ## Confirmar
 
@@ -35,16 +35,19 @@ Muestra un resumen de lo que vas a crear: perfil, método, carpetas y unidades. 
 
 1. `perfil.md` en la raíz, a partir de `sistema/plantillas/perfil.md`, con las respuestas 1 y 2.
 2. `mapa.md`: reemplázalo completo por el bloque "Mapa" del preset elegido.
-3. Las carpetas de la sección "Estructura" del preset. Agrega un `.gitkeep` a las que queden vacías.
-4. Las unidades iniciales, siguiendo `sistema/flujos/nuevo.md` sin volver a pedir confirmación por
-   cada una. Deja las plantillas con su estructura vacía: el contenido lo aporta la persona.
+3. Las carpetas y los archivos de la raíz que nombre la sección "Estructura" del preset. Si el
+   cerebro usa git, agrega un `.gitkeep` a las carpetas que queden vacías.
+4. Las unidades iniciales, siguiendo los pasos 3 a 5 de `sistema/flujos/nuevo.md`: sin pedir
+   confirmación por cada una y sin preguntar por el foco. Deja las plantillas con su estructura
+   vacía: el contenido lo aporta la persona.
 5. Si aceptó git: `git init`, `git add .` y un commit `Cerebro inicial`. No hagas `push`.
 
 No borres `sistema/presets/`: sirve de referencia si después se quiere cambiar de método.
 
 ## Cierre
 
-Muestra qué quedó creado y estos primeros pasos:
+La sesión sigue sin foco y con el perfil recién escrito ya vigente. Muestra qué quedó creado y estos
+primeros pasos:
 
 - Guardar lo primero que tenga en la cabeza: "captura …"
 - Ordenarlo cuando tenga cinco minutos: "procesa el inbox"

@@ -9,15 +9,14 @@ uso. Parte con lo mínimo y el mapa crece cuando lo pidas.
 notas/   Todo lo que no es tarea
 ```
 
-Las tareas van en un solo `tareas.md` en la raíz.
+Las tareas van en un solo `tareas.md` en la raíz, que el bootstrap crea con el título `# Tareas` y
+las secciones `## Pendientes` y `## Hechas`.
 
 ## Preguntas del bootstrap
 
 - ¿Ya tienes carpetas o categorías en mente? Si las nombra, agrega una fila por cada una a la tabla
   "Contenedores" del mapa, preguntando si cada unidad es una carpeta con seguimiento (contexto,
   tareas y bitácora) o un archivo suelto.
-
-Crea además `tareas.md` en la raíz con el título `# Tareas`.
 
 ## Mapa
 
@@ -54,6 +53,7 @@ Sin contenedores con foco, la sesión parte sin foco: `tareas.md` y la lista de 
 ## Al cerrar
 
 Las tareas van a `tareas.md`. Lo demás se propone como nota nueva o como agregado a una existente.
+No hay bitácora: la frase de dónde retomar se agrega como tarea, con el prefijo "Retomar:".
 
 ## Archivado
 

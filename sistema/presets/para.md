@@ -15,7 +15,8 @@ archivo/     Lo terminado o pausado
 ## Preguntas del bootstrap
 
 - ¿Qué áreas quieres crear ahora? Nombres separados por comas.
-- ¿Qué proyectos tienes activos hoy?
+- ¿Qué proyectos tienes activos hoy? Para cada uno, qué resultado busca y para cuándo. Si no lo
+  sabe todavía, queda vacío.
 
 ## Mapa
 
@@ -51,7 +52,7 @@ tarea lo necesita.
 | Decisión | `contexto.md` de la unidad, sección "Decisiones" | `- **AAAA-MM-DD**: decisión y razón` |
 | Aprendizaje | `contexto.md` de la unidad, sección "Aprendizajes" | Una línea |
 | Referencia | `recursos/<tema>.md` | Nota con su fuente |
-| Idea sin dueño | Se queda en `inbox.md` o se crea un proyecto | — |
+| Idea | `recursos/ideas.md` | `- **AAAA-MM-DD**: la idea en una línea` |
 
 ## Al cerrar
 

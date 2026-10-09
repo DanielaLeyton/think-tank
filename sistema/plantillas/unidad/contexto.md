@@ -1,3 +1,7 @@
+---
+creada: {{fecha}}
+---
+
 # {{nombre}}
 
 ## Qué es
