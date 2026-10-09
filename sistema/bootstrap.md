@@ -53,3 +53,4 @@ primeros pasos:
 - Guardar lo primero que tenga en la cabeza: "captura …"
 - Ordenarlo cuando tenga cinco minutos: "procesa el inbox"
 - Al terminar de trabajar: "cierra la sesión"
+- Si ya tiene notas en otro lugar: "importa mis notas de <carpeta>"

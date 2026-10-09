@@ -37,6 +37,8 @@ flujo y síguelo. No los ejecutes de memoria.
 | Ordenar lo acumulado en el inbox | `sistema/flujos/procesar-inbox.md` |
 | Crear un proyecto, área, espacio o nota nueva | `sistema/flujos/nuevo.md` |
 | Ver qué hay pendiente | `sistema/flujos/pendientes.md` |
+| Preguntar por algo que ya está guardado | `sistema/flujos/consultar.md` |
+| Traer notas que ya existen en otro lugar | `sistema/flujos/importar.md` |
 | Terminar la sesión sin perder nada | `sistema/flujos/cerrar-sesion.md` |
 | Auditar que la estructura esté sana | `sistema/flujos/revisar.md` |
 

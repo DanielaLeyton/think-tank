@@ -9,8 +9,12 @@ necesites, cada uno con el suyo.
 
 ## Qué trae
 
-- **Un núcleo de siete flujos** que funcionan igual con cualquier método: abrir sesión, capturar,
-  procesar el inbox, crear, ver pendientes, cerrar sesión y revisar.
+- **Un núcleo de nueve flujos** que funcionan igual con cualquier método: abrir sesión, capturar,
+  procesar el inbox, crear, ver pendientes, consultar, importar, cerrar sesión y revisar.
+- **Parte con lo que ya tienes**: importa tus notas de Notion, Obsidian, Apple Notes o una carpeta
+  cualquiera, y el agente propone dónde va cada cosa.
+- **Pregúntale a tu cerebro**: "¿qué decidimos sobre precios?" se responde con lo que guardaste,
+  citando el archivo de donde sale cada dato.
 - **Cuatro métodos listos**: PARA, Zettelkasten, Espacios y Libre.
 - **Instrucciones para varios agentes**: Claude Code, Codex, Cursor, Gemini CLI y cualquiera que lea
   `AGENTS.md`.
@@ -35,6 +39,13 @@ necesites, cada uno con el suyo.
 3. Responde la entrevista: quién eres, para qué es este cerebro y qué método quieres. El agente crea
    las carpetas y deja todo listo.
 
+4. Si ya tienes notas en otro lugar, tráelas:
+
+   > Importa mis notas de ~/Documentos/mi-exportacion
+
+   El agente hace un inventario, propone un plan y espera tu aprobación. Tus archivos originales no
+   se modifican.
+
 ## Métodos
 
 | Método | Úsalo si | Organiza por |
@@ -55,6 +66,8 @@ Puedes pedirlo en lenguaje natural o, en Claude Code, con el comando.
 | Ordenar lo capturado | "Procesa el inbox" | `/procesar-inbox` |
 | Crear un proyecto, espacio o nota | "Crea un proyecto …" | `/nuevo` |
 | Ver tareas abiertas | "¿Qué tengo pendiente?" | `/pendientes` |
+| Preguntar por algo guardado | "¿Qué decidimos sobre …?" | `/consultar` |
+| Traer notas de otro lugar | "Importa mis notas de …" | `/importar` |
 | Terminar sin perder nada | "Cierra la sesión" | `/cerrar-sesion` |
 | Detectar desorden | "Revisa el cerebro" | `/revisar` |
 
@@ -70,7 +83,7 @@ mi-cerebro/
 ├── inbox.md           Captura sin clasificar
 ├── sistema/
 │   ├── bootstrap.md   La entrevista de configuración
-│   ├── flujos/        Los siete flujos del núcleo
+│   ├── flujos/        Los nueve flujos del núcleo
 │   ├── presets/       Un archivo por método
 │   └── plantillas/    Archivos base de cada unidad
 ├── .claude/commands/  Comandos de Claude Code, de dos líneas cada uno
