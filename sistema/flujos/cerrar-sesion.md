@@ -25,7 +25,7 @@ Deja registrado lo que pasó en la sesión para que la siguiente parta donde ter
    ```
 
 6. Si durante la sesión se habló de algo ajeno al foco que no quedó guardado, ofrece capturarlo al
-   inbox en vez de escribirlo en otra unidad.
+   inbox en vez de escribirlo en otra unidad. Esa captura va sin la marca `(desde: …)`.
 7. Confirma en una línea qué quedó guardado. El foco termina aquí.
 
 Si la sesión no tuvo foco, ofrece capturar al inbox lo que valga la pena conservar.
