@@ -29,7 +29,8 @@ Pregunta de a un tema por vez. No escribas nada hasta el paso "Confirmar".
 
 ## Confirmar
 
-Muestra un resumen de lo que vas a crear: perfil, método, carpetas y unidades. Espera un sí.
+Muestra un resumen de lo que vas a crear: perfil, método, carpetas y unidades. Espera un sí, aunque
+la persona haya dado todas las respuestas en un solo mensaje.
 
 ## Escribir
 

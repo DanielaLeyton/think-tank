@@ -58,7 +58,8 @@ Reglas de las notas:
 - Los enlaces usan `[[nombre-del-archivo]]` y cada uno lleva una frase que explica la relación. Si
   la persona no explicó la relación, pregúntasela antes de escribir. Un enlace a un índice cuenta.
 - Si la idea viene de una fuente, crea o amplía también la nota de esa fuente en `fuentes/`, pon
-  `fuente: [[autor-titulo]]` en la nota y agrégala a "Notas que salieron de aquí" de la fuente.
+  `fuente: [[autor-titulo]]` en la nota y agrégala a "Notas que salieron de aquí" de la fuente. Esa
+  lista es la única donde los enlaces van sin frase.
 - Antes de crear una nota, busca si ya existe una sobre la misma idea y propón ampliarla.
 - Toda nota nueva se agrega al menos a un índice.
 
